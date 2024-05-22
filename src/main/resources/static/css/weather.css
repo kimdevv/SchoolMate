@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#Container {
+    height: 100%;
+    width: 90%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    font-size: 80px;
+    color: #8daba9;
+}
+
+.weatherContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.stationSpan {
+    width: 100px;
+    text-align: center;
+}
+.weatherDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 150px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.weatherDiv img {
+    width: 110px;
+    height: 110px;
+    margin-left: 20px;
+}

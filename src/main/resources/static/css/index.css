@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 100px;
+    color: #8daba9;
+}
+
+#scheduleContainer {
+    width: 98%;
+    height: 12%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #c1bfb8;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#scheduleContainer span {
+    font-size: 40px;
+}
+#scheduleContainer input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    outline: 0;
+    font-size: 40px;
+}
+
+#secondLineContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    height: 20%;
+    margin-bottom: 50px;
+}
+.weatherDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 350px;
+    background-color: white;
+    border: 2px solid #c1bfb8;
+    border-radius: 4px;
+    padding: 10px 0 10px 0;
+}
+.weatherDiv img {
+    width: 50%;
+}
+.weatherDiv span {
+    font-size: 40px;
+}
+
+#finalLineContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    height: 38%;
+}
+#routeContainer {
+    width: 30%;
+    height: 650px;
+    background-color: white;
+    border: 2px solid #c1bfb8;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px
+}
+#route1 {
+    width: 60px;
+    height: 40%;
+}
+#route2 {
+    width: 60px;
+    height: 40%;
+}
+
+#alarmContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 68%;
+    height: 650px;
+    font-size: 50px;
+    background-color: white;
+    border: 2px solid #c1bfb8;
+    border-radius: 4px;
+}
+#alarmContainer span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.subwayDiv {
+    width: 90%;
+    height: 28%;
+    background-color: #eeeeee;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#logout {
+    margin-top: 30px;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background-color: gainsboro;
+    color: gray;
+    border-radius: 10px;
+}

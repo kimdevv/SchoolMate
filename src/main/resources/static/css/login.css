@@ -1,0 +1,82 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    position: relative;
+    top: -400px;
+    animation-name: logoUp;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+    width: 460px;
+}
+@keyframes logoUp {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 0;
+    }
+    100% {
+        top: -400px;
+    }
+}
+
+input {
+    position: absolute;
+    padding: 6px 14px 6px 14px;
+    width: 800px;
+    height: 150px;
+    outline: none;
+    border: 1px solid silver;
+    font-size: 50px;
+    margin-top: 300px;
+    text-align: center;
+
+    animation-name: inputUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#enter {
+    width: 798px;
+    height: 150px;
+    background-color: gainsboro;
+    cursor: pointer;
+
+    position: absolute;
+    margin-top: 630px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    color: lightslategrey;
+
+    animation-name: inputUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#alertSpan {
+    font-size: 30px;
+    color: lightslategrey;
+    animation-name: inputUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes inputUp {
+    0% {
+        opacity: 0%;
+    }
+    67% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

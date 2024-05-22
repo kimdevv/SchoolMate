@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#Container {
+    height: 100%;
+    width: 80%;
+    overflow: auto;
+}
+
+#titleSpan {
+    display: inline-block;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    font-size: 70px;
+    margin-top: 70px;
+}
+
+input {
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    border: none;
+    outline: none;
+    font-size: 50px;
+}
+
+.station {
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.station span {
+    display: inline-block;
+    width: 70%;
+    font-size: 50px;
+}
+.subwaylogo {
+    height: 100%;
+}

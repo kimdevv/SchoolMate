@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#Container {
+    height: 100%;
+    width: 80%;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    font-size: 100px;
+    color: #8daba9;
+}
+
+#titleSpan {
+    display: inline-block;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    font-size: 70px;
+    margin-top: 70px;
+}
+
+table {
+    font-size: 50px;
+}
+td {
+    height: 120px;
+}
+td input {
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 50px;
+}
+td input::placeholder {
+    font-size: 40px;
+    text-align: center;
+}

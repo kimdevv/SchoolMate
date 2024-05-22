@@ -1,0 +1,47 @@
+plugins {
+	id 'java'
+	id 'war'
+	id 'org.springframework.boot' version '2.7.4'
+	id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.hufs'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '8'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compileOnly("org.springframework.boot:spring-boot-devtools")
+	runtimeOnly 'mysql:mysql-connector-java'
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	// jsp 처리
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+	implementation 'javax.servlet:jstl'
+
+	implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+
+	// FCM
+	implementation 'com.google.firebase:firebase-admin:7.1.1'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

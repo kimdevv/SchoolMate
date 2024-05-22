@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#Container {
+    height: 100%;
+    width: 80%;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    font-size: 100px;
+    color: #8daba9;
+}
+
+.locSpan {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    font-size: 70px;
+    margin-top: 70px;
+}
+.whereSpan {
+    margin-left: 30px;
+    font-size: 70px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+.footerMenu {
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+}

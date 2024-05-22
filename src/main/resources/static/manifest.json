@@ -1,0 +1,19 @@
+{
+  "background_color": "#efece4",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "SchoolMate",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "SchoolMate",
+  "start_url": "/",
+  "theme_color": "#efece4",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "id": "SchoolMate",
+  "description": "컴퓨터논리개론 조별 과제"
+}
